@@ -1,0 +1,22 @@
+name: shift_habit
+description: A simple habit tracking app designed specifically for shift workers to monitor daily routines and maintain streaks aligned with their variable schedules.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_local_notifications: ^12.0.4
+  intl: ^0.18.0
+  fl_chart: ^0.55.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
